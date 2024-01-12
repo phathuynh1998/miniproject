@@ -1,10 +1,11 @@
 div#root {
-    background: #4a6c8b;
+    background: #305d9d;
     padding: 30px;
 }
 
 div#root>div {
     height: 1172px !important;
+    box-shadow: 9px 0px 41px 0px #00000078;
 }
 
 #root>div>div {
@@ -46,7 +47,7 @@ li {
 
 .cv-left {
     padding: 0px 45px;
-    background-color: #1c4278 !important;
+    background-color: #305d9d !important;
 }
 
 .cv-left h3 {
