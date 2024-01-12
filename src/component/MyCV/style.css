@@ -1,0 +1,164 @@
+div#root {
+    background: #4a6c8b;
+    padding: 30px;
+}
+
+div#root>div {
+    height: 1172px !important;
+}
+
+#root>div>div {
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+p, span, li {
+    color: #ffffffb3;
+    font-size: 14px;
+}
+
+.cv-right p,
+.cv-right span,
+.cv-right li {
+    color: rgba(157, 147, 147, 0.8);
+}
+
+ul {
+    margin-left: 15px !important;
+}
+
+span.rounded-full {
+    width: 7px !important;
+    height: 7px !important;
+}
+
+li {
+    list-style: disc;
+}
+
+.cv-right {
+    padding: 0px 45px;
+}
+
+.cv-left {
+    padding: 0px 45px;
+    background-color: #1c4278 !important;
+}
+
+.cv-left h3 {
+    padding-bottom: 30px;
+}
+
+.flex.justify-evenly.py-3 {
+    width: 100%;
+}
+
+li.text-left {
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+li.text-left>span {
+    padding-left: 15px;
+}
+
+li.text-left>span:nth-child(1) {
+    font-weight: 500;
+}
+
+.listExpertise>div>div {
+    justify-content: space-evenly;
+}
+
+.education>div>div>div>p:first-child,
+.workexperence>div>div>div>p:first-child {
+    font-weight: 550;
+    text-transform: uppercase;
+    color: rgb(157 147 147);
+    text-align: left;
+}
+
+.workexperence>div>div>div>p:first-child {
+    padding-bottom: 10px;
+}
+
+.workexperence>div>div:last-child>div:first-child {
+    align-items: flex-start;
+}
+
+.flex-col {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cv-right h3 {
+    color: #242424;
+    padding-bottom: 25px;
+}
+
+.namePosition {
+    text-transform: uppercase;
+}
+
+span.nameC, span.nameP, span.position {
+    color: #275999;
+}
+
+span.nameC, span.nameP {
+    font-size: 47px;
+    line-height: 55px;
+}
+
+span.nameC {
+    font-weight: 600 !important;
+}
+
+span.nameP {
+    font-weight: 300;
+}
+
+span.position {
+    font-weight: 645;
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+.namePosition {
+    margin-bottom: 35px !important;
+}
+
+.avt {
+    width: 100%;
+}
+
+#root>div>div {
+    height: 100%;
+    padding-top: 65px;
+}
+
+#root>div>div:nth-child(2) {
+    padding-top: 100px;
+}
+
+.contact {
+    padding-top: 55px !important;
+}
+
+li.text-left:before {
+    content: '';
+    display: block;
+    background: white;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    left: -12px;
+    top: 8px;
+}
