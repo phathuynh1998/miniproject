@@ -162,3 +162,8 @@ li.text-left:before {
     left: -12px;
     top: 8px;
 }
+
+.flex.justify-evenly.py-3,
+.w-full {
+    align-items: flex-start;
+}
